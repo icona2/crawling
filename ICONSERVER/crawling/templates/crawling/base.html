@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Crawling List Site</title>
+     <link rel="stylesheet" href="{% static 'css/crawling.css' %}">
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!------------------------------------------------------>
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!---------------------------------------------------------------->
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+</head>
+
+<body>
+    <div id="wrap">
+
+        <nav id="gnb__wrap">
+            <div class="logo__area">
+                <img src="media/logo__img__001.png" alt="">
+            </div>
+
+            <ul class="gnb__area">
+
+                <li>
+                    <a class="on">
+                        Naver 
+                        <div class="gnb__active"></div>
+                    </a>
+
+                </li>
+                <li>
+                    <a>
+                       Google
+                        <div class="gnb__active"></div>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="https://m.icon.foundation/?lang=ko">
+                        Icon Homepage
+                        <div class="gnb__active"></div>
+                    </a>
+
+                </li>
+
+            </ul>
+        </nav>
+            {% block content %}
+            {% endblock %}
+    </div>
+    <script>
+        $(function() {
+
+            var $gnbBtn = $('.gnb__area li a');
+
+            var $contentLi = $('.content__li')
+            $gnbBtn.click(function() {
+
+                $gnbBtn.removeClass('on');
+
+                $(this).addClass('on');
+
+                if ($gnbBtn.eq(0).hasClass('on')) {
+
+                    $contentLi.removeClass('on');
+                    $contentLi.eq(0).addClass('on');
+
+                } else if ($gnbBtn.eq(1).hasClass('on')) {
+                    $contentLi.removeClass('on');
+                    $contentLi.eq(1).addClass('on');
+
+                } else if ($gnbBtn.eq(2).hasClass('on')) {
+                    $contentLi.removeClass('on');
+                    $contentLi.eq(2).addClass('on');
+
+                }
+            })
+
+
+
+
+        })
+    </script>
+</body>
+
+</html>
+
