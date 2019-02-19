@@ -6,7 +6,7 @@ class ICON_CRAWLING_SCORE(IconScoreBase):
 
     def __init__(self, db: IconScoreDatabase) -> None:
         super().__init__(db)
-        self._RealTimeSearchWordDB = DictDB("Crawling", db, value_type=str, depth=2)
+        self._RealTimeSearchWordDB = DictDB("Crawling", db, value_type=str, depth=3)
 
     def on_install(self) -> None:
         super().on_install()
@@ -20,11 +20,11 @@ class ICON_CRAWLING_SCORE(IconScoreBase):
         return "Hello"
 
     @external
-    def transaction_RT(self, _date: int, _time: int, _value: str) -> str:
-        self._RealTimeSearchWordDB[_date][_time] = _value
+    def transaction_RT(self, _date: int, _time: int, _ranking: int, _value: str) -> str:
+        self._RealTimeSearchWordDB[_date][_time][_ranking] = _value
         # return
 
     @external(readonly=True)
-    def inquiry_RT(self, _Call_date: int, _Call_time: int) -> str:
+    def inquiry_RT(self, _Call_date: int, _Call_time: int, _Call_ranking: int) -> str:
         # return "test"
-        return self._RealTimeSearchWordDB[_Call_date][_Call_time]
+        return self._RealTimeSearchWordDB[_Call_date][_Call_time][_Call_ranking]

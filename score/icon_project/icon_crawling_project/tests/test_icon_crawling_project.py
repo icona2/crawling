@@ -12,7 +12,6 @@ from iconsdk.builder.transaction_builder import (
     CallTransactionBuilder,
     MessageTransactionBuilder
 )
-# ICON Transaction lib
 from iconsdk.signed_transaction import SignedTransaction
 from iconsdk.builder.call_builder import CallBuilder
 from iconsdk.icon_service import IconService
@@ -26,7 +25,7 @@ DIR_PATH = os.path.abspath(os.path.dirname(__file__))
 
 
 class TestICON_CRAWLING_SCORE(IconIntegrateTestBase):
-    TEST_HTTP_ENDPOINT_URI_V3 = "http://127.0.0.1:9000/api/v3"
+    TEST_HTTP_ENDPOINT_URI_V3 = "http://127.0.0.1:8000/api/v3"
     SCORE_PROJECT= os.path.abspath(os.path.join(DIR_PATH, '..'))
 
     def setUp(self):
@@ -106,7 +105,7 @@ class TestICON_CRAWLING_SCORE(IconIntegrateTestBase):
                 .build()
 
             signed_transaction = SignedTransaction(transaction, self._test1)
-            tx_result = self.process_transaction(signed_transaction, self.icon_service)
+            tx_result = self.icon_service(signed_transaction, self.icon_service)
             # print(idx, nowDatetime, title.text)
 
 
