@@ -140,9 +140,9 @@ class TestABToken(IconIntegrateTestBase):
 
             # Sends the call request
             response = self.process_call(Inquiry, self.icon_service)
-
-
-            # check call result
+            #
+            #
+            #             # check call result
             print(response)
 
 

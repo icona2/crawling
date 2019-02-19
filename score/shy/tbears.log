@@ -1905,3 +1905,102 @@
 [INFO|logger.py:332] 2019-02-15 08:21:47,413 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
 [INFO|logger.py:332] 2019-02-15 08:21:48,522 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x1bc', 'blockHash': 'dbe25f4ea5388b8f32d13e113b9f4e0b3ccb10aac9fb26e1bd87ab4edb52c71e'}
 [INFO|logger.py:332] 2019-02-15 08:21:48,523 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|logger.py:332] 2019-02-17 00:42:06,845 > [IconServiceCli] check_serve_icon_service!
+[INFO|logger.py:332] 2019-02-17 00:42:06,862 > [LOG] start_server() start
+[INFO|logger.py:332] 2019-02-17 00:42:06,863 > [LOG] start_process() end
+[INFO|logger.py:332] 2019-02-17 00:42:06,863 > [IconServiceCli] start_command done!
+[INFO|logger.py:332] 2019-02-17 00:42:07,237 > [IconRpcServerCli] check_serve_rest_app!
+[INFO|logger.py:332] 2019-02-17 00:42:08,041 > [IconRpcServerCli] start_command done!
+[INFO|logger.py:332] 2019-02-17 00:42:08,083 > [IconServiceCli] ====================LOG CONFIG====================
+[INFO|logger.py:332] 2019-02-17 00:42:08,083 > [IconServiceCli] [CONFIG.log.logger] > tbears
+[INFO|logger.py:332] 2019-02-17 00:42:08,083 > [IconServiceCli] [CONFIG.log.level] > info
+[INFO|logger.py:332] 2019-02-17 00:42:08,083 > [IconServiceCli] [CONFIG.log.filePath] > ./tbears.log
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.log.colorLog] > True
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.log.outputType] > file
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.log.rotate.type] > bytes
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.log.rotate.maxBytes] > 10485760
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.log.rotate.backupCount] > 10
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.scoreRootPath] > ./.score
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.stateDbRootPath] > ./.statedb
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.channel] > loopchain_default
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.amqpKey] > 7100
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.amqpTarget] > 127.0.0.1
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.builtinScoreOwner] > hxebf3a409845cd09dcb5af31ed5be5e34e2af9433
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.service.fee] > False
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.service.audit] > False
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.service.deployerWhiteList] > False
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.service.scorePackageValidator] > False
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.hostAddress] > 127.0.0.1
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.port] > 9000
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.genesis.nid] > 0x3
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.genesis.accounts] > [{'name': 'genesis', 'address': 'hx0000000000000000000000000000000000000000', 'balance': '0x2961fff8ca4a62327800000'}, {'name': 'fee_treasury', 'address': 'hx1000000000000000000000000000000000000000', 'balance': '0x0'}, {'name': 'test1', 'address': 'hxe7af5fcfd8dfc67530a01a0e403882687528dfcb', 'balance': '0x2961fff8ca4a62327800000'}]
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.blockConfirmInterval] > 10
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.blockConfirmEmpty] > True
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.verbose] > False
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.command] > start
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.config] > ./temp_conf.json
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] [CONFIG.tbearsMode] > False
+[INFO|logger.py:332] 2019-02-17 00:42:08,084 > [IconServiceCli] ====================LOG CONFIG====================
+[INFO|logger.py:332] 2019-02-17 00:42:08,307 > [IconService] ==========IconService Service params==========
+[INFO|logger.py:332] 2019-02-17 00:42:08,307 > [IconService] score_root_path : ./.score
+[INFO|logger.py:332] 2019-02-17 00:42:08,307 > [IconService] icon_score_state_db_root_path  : ./.statedb
+[INFO|logger.py:332] 2019-02-17 00:42:08,307 > [IconService] amqp_target  : 127.0.0.1
+[INFO|logger.py:332] 2019-02-17 00:42:08,307 > [IconService] amqp_key  :  7100
+[INFO|logger.py:332] 2019-02-17 00:42:08,307 > [IconService] icon_score_queue_name  : IconScore.loopchain_default.7100
+[INFO|logger.py:332] 2019-02-17 00:42:08,307 > [IconService] ==========IconService Service params==========
+[INFO|logger.py:332] 2019-02-17 00:42:08,335 > [IconInnerService] icon_score_service open
+[INFO|logger.py:332] 2019-02-17 00:42:08,528 > [IconService_Icx] genesis: hx0000000000000000000000000000000000000000
+[INFO|logger.py:332] 2019-02-17 00:42:08,528 > [IconService_Icx] fee_treasury: hx1000000000000000000000000000000000000000
+[INFO|logger.py:332] 2019-02-17 00:42:08,528 > [IconService_Icx] total_supply: 1600920000000000000000000000
+[INFO|logger.py:332] 2019-02-17 00:42:09,300 > [IconService] Start IconService Service serve!
+[INFO|logger.py:332] 2019-02-17 00:42:11,136 > [tbears_block_manager] ====================LOG CONFIG====================
+[INFO|logger.py:332] 2019-02-17 00:42:11,136 > [tbears_block_manager] [CONFIG.hostAddress] > 127.0.0.1
+[INFO|logger.py:332] 2019-02-17 00:42:11,136 > [tbears_block_manager] [CONFIG.port] > 9000
+[INFO|logger.py:332] 2019-02-17 00:42:11,136 > [tbears_block_manager] [CONFIG.scoreRootPath] > ./.score
+[INFO|logger.py:332] 2019-02-17 00:42:11,136 > [tbears_block_manager] [CONFIG.stateDbRootPath] > ./.statedb
+[INFO|logger.py:332] 2019-02-17 00:42:11,136 > [tbears_block_manager] [CONFIG.log.logger] > tbears
+[INFO|logger.py:332] 2019-02-17 00:42:11,136 > [tbears_block_manager] [CONFIG.log.level] > info
+[INFO|logger.py:332] 2019-02-17 00:42:11,136 > [tbears_block_manager] [CONFIG.log.filePath] > ./tbears.log
+[INFO|logger.py:332] 2019-02-17 00:42:11,136 > [tbears_block_manager] [CONFIG.log.colorLog] > True
+[INFO|logger.py:332] 2019-02-17 00:42:11,136 > [tbears_block_manager] [CONFIG.log.outputType] > file
+[INFO|logger.py:332] 2019-02-17 00:42:11,136 > [tbears_block_manager] [CONFIG.log.rotate.type] > bytes
+[INFO|logger.py:332] 2019-02-17 00:42:11,137 > [tbears_block_manager] [CONFIG.log.rotate.maxBytes] > 10485760
+[INFO|logger.py:332] 2019-02-17 00:42:11,137 > [tbears_block_manager] [CONFIG.log.rotate.backupCount] > 10
+[INFO|logger.py:332] 2019-02-17 00:42:11,137 > [tbears_block_manager] [CONFIG.service.fee] > False
+[INFO|logger.py:332] 2019-02-17 00:42:11,137 > [tbears_block_manager] [CONFIG.service.audit] > False
+[INFO|logger.py:332] 2019-02-17 00:42:11,137 > [tbears_block_manager] [CONFIG.service.deployerWhiteList] > False
+[INFO|logger.py:332] 2019-02-17 00:42:11,137 > [tbears_block_manager] [CONFIG.genesis.nid] > 0x3
+[INFO|logger.py:332] 2019-02-17 00:42:11,137 > [tbears_block_manager] [CONFIG.genesis.accounts] > [{'name': 'genesis', 'address': 'hx0000000000000000000000000000000000000000', 'balance': '0x2961fff8ca4a62327800000'}, {'name': 'fee_treasury', 'address': 'hx1000000000000000000000000000000000000000', 'balance': '0x0'}, {'name': 'test1', 'address': 'hxe7af5fcfd8dfc67530a01a0e403882687528dfcb', 'balance': '0x2961fff8ca4a62327800000'}]
+[INFO|logger.py:332] 2019-02-17 00:42:11,137 > [tbears_block_manager] [CONFIG.channel] > loopchain_default
+[INFO|logger.py:332] 2019-02-17 00:42:11,137 > [tbears_block_manager] [CONFIG.amqpKey] > 7100
+[INFO|logger.py:332] 2019-02-17 00:42:11,137 > [tbears_block_manager] [CONFIG.amqpTarget] > 127.0.0.1
+[INFO|logger.py:332] 2019-02-17 00:42:11,137 > [tbears_block_manager] [CONFIG.blockConfirmInterval] > 10
+[INFO|logger.py:332] 2019-02-17 00:42:11,137 > [tbears_block_manager] [CONFIG.blockConfirmEmpty] > True
+[INFO|logger.py:332] 2019-02-17 00:42:11,137 > [tbears_block_manager] [CONFIG.config] > ./tbears_server_config.json
+[INFO|logger.py:332] 2019-02-17 00:42:11,137 > [tbears_block_manager] ====================LOG CONFIG====================
+[INFO|logger.py:332] 2019-02-17 00:42:11,278 > [tbears_block_manager] ==========tbears block_manager params==========
+[INFO|logger.py:332] 2019-02-17 00:42:11,279 > [tbears_block_manager] amqp_target  : 127.0.0.1
+[INFO|logger.py:332] 2019-02-17 00:42:11,279 > [tbears_block_manager] amqp_key  :  7100
+[INFO|logger.py:332] 2019-02-17 00:42:11,279 > [tbears_block_manager] queue_name  : Channel.loopchain_default.7100
+[INFO|logger.py:332] 2019-02-17 00:42:11,279 > [tbears_block_manager]             : IconScore.loopchain_default.7100
+[INFO|logger.py:332] 2019-02-17 00:42:11,279 > [tbears_block_manager] ==========tbears block_manager params==========
+[INFO|logger.py:332] 2019-02-17 00:42:11,338 > [IconInnerService] icon_score_hello
+[INFO|logger.py:332] 2019-02-17 00:42:11,339 > [tbears_block_manager] tbears block_manager service started!
+[INFO|logger.py:332] 2019-02-17 00:42:21,345 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x1bc', 'blockHash': '3ba605f9842a1b76bcdbb19d84f6373629755b9f5c3ce86f99553b23a4e45aeb', 'prevBlockHash': 'dbe25f4ea5388b8f32d13e113b9f4e0b3ccb10aac9fb26e1bd87ab4edb52c71e', 'timestamp': '0x58212fc87f60a'}, 'transactions': []}
+[INFO|logger.py:332] 2019-02-17 00:42:21,348 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|logger.py:332] 2019-02-17 00:42:21,351 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x1bd', 'blockHash': '3ba605f9842a1b76bcdbb19d84f6373629755b9f5c3ce86f99553b23a4e45aeb'}
+[INFO|logger.py:332] 2019-02-17 00:42:21,351 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|logger.py:332] 2019-02-17 00:42:31,357 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x1bd', 'blockHash': '242032a0062d75e57cef96926ba5dda9382908633c507e73b1bb9ca7b13e7725', 'prevBlockHash': '3ba605f9842a1b76bcdbb19d84f6373629755b9f5c3ce86f99553b23a4e45aeb', 'timestamp': '0x58212fd20baee'}, 'transactions': []}
+[INFO|logger.py:332] 2019-02-17 00:42:31,358 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|logger.py:332] 2019-02-17 00:42:31,360 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x1be', 'blockHash': '242032a0062d75e57cef96926ba5dda9382908633c507e73b1bb9ca7b13e7725'}
+[INFO|logger.py:332] 2019-02-17 00:42:31,360 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|logger.py:332] 2019-02-17 00:42:41,360 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x1be', 'blockHash': '909c37eb71b2b5a74129bf432b9ff396c6865ff68d9faf82b9f7b706e2de8813', 'prevBlockHash': '242032a0062d75e57cef96926ba5dda9382908633c507e73b1bb9ca7b13e7725', 'timestamp': '0x58212fdb95f59'}, 'transactions': []}
+[INFO|logger.py:332] 2019-02-17 00:42:41,361 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|logger.py:332] 2019-02-17 00:42:41,363 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x1bf', 'blockHash': '909c37eb71b2b5a74129bf432b9ff396c6865ff68d9faf82b9f7b706e2de8813'}
+[INFO|logger.py:332] 2019-02-17 00:42:41,363 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|logger.py:332] 2019-02-17 00:42:51,368 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x1bf', 'blockHash': '2ac1fe588f0a1b9abbb2a1d0e4e2d719049791b72799216a1d7ae9b409e2cfde', 'prevBlockHash': '909c37eb71b2b5a74129bf432b9ff396c6865ff68d9faf82b9f7b706e2de8813', 'timestamp': '0x58212fe5214e3'}, 'transactions': []}
+[INFO|logger.py:332] 2019-02-17 00:42:51,369 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|logger.py:332] 2019-02-17 00:42:51,371 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x1c0', 'blockHash': '2ac1fe588f0a1b9abbb2a1d0e4e2d719049791b72799216a1d7ae9b409e2cfde'}
+[INFO|logger.py:332] 2019-02-17 00:42:51,372 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|logger.py:332] 2019-02-17 00:42:57,114 > [IconInnerService] icon_score_service close
+[INFO|logger.py:332] 2019-02-17 00:42:57,115 > [IconServiceCli] ==========IconService Done==========
