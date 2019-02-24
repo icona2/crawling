@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 Holly shit
+=======
+holly
+>>>>>>> 2e778d17f4e5b798663726326db22f06227092e2
 really?
